@@ -1,0 +1,118 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+* {
+  font-family: 'Playfair Display';
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+/* --------header-------- */
+
+.navigation {
+  font-size: 0;
+}
+
+.nav__items {
+  text-align: center;
+}
+
+.nav__item {
+  display: inline-block;
+  padding: 70px 0 100px 0;
+  list-style: none;
+}
+
+.nav__item:nth-of-type(1) {
+  padding: 70px 60px 100px 60px;
+}
+
+.nav__item:nth-of-type(2) {
+  padding: 70px 52px 100px 60px;
+}
+
+.nav__item:nth-of-type(3) {
+  padding: 70px 48px 100px 52px;
+}
+
+.nav__item:nth-of-type(4) {
+  padding: 70px 60px 100px 48px;
+}
+
+.nav__links {
+  display: block;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  color: #626262;
+}
+
+.nav__item .nav__links:hover,
+.nav__item .nav__links:focus {
+  color: #03a9f4;
+}
+
+/* --------main-------- */
+
+img {
+  display: block;
+  width: 100%;
+  min-height: 280px;
+  object-fit: cover;
+}
+
+.content__block {
+  font-size: 0;
+}
+
+.list__item {
+  display: inline-block;
+  vertical-align: top;
+  width: 420px;
+}
+
+.list__item:nth-of-type(odd) {
+  margin-right: 60px;
+}
+
+.sub__title {
+  padding-top: 30px;
+  font-family: 'Ubuntu';
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #b4ad9e;
+}
+
+.title {
+  padding-top: 24px;
+  line-height: 36px;
+  font-size: 30px;
+  color: #626262;
+}
+
+.text {
+  padding-top: 30px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #626262;
+}
+
+.content__section:not(:nth-of-type(3)) {
+  margin-bottom: 130px;
+}
